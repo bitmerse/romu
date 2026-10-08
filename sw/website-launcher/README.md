@@ -46,8 +46,7 @@ version). Do it if Romu runs other firmware, or an older MicroPython.
 2. In Thonny, click the interpreter name in the **bottom-right corner** of the
    window and choose **Install MicroPython…**.
 
-   <!-- TODO: replace src with the GitHub asset URL of the interpreter-menu screenshot -->
-   <img width="385" alt="Thonny's bottom-right interpreter menu with Install MicroPython… highlighted" src="https://github.com/user-attachments/assets/REPLACE-WITH-THONNY-MENU-ASSET-ID" />
+   <img width="385" alt="Thonny's bottom-right interpreter menu with Install MicroPython… highlighted" src="https://github.com/user-attachments/assets/04ac69ac-06bf-4d1e-bf37-5b0aa820bea2" />
 
 3. In the dialog, choose:
 
@@ -58,8 +57,7 @@ version). Do it if Romu runs other firmware, or an older MicroPython.
    | variant | **Raspberry Pi • Pico 2** |
    | version | the newest one offered (tested with **1.29.0**) |
 
-   <!-- TODO: replace src with the GitHub asset URL of the Install MicroPython dialog screenshot -->
-   <img width="584" alt="Thonny's Install or update MicroPython dialog with target volume RP2350, family RP2, variant Raspberry Pi Pico 2 and version 1.29.0" src="https://github.com/user-attachments/assets/REPLACE-WITH-INSTALL-DIALOG-ASSET-ID" />
+   <img width="584" alt="Thonny's Install or update MicroPython dialog with target volume RP2350, family RP2, variant Raspberry Pi Pico 2 and version 1.29.0" src="https://github.com/user-attachments/assets/4ffed338-52ed-49fc-930b-2c068e582cd6" />
 
 4. Click **Install** and wait until it says it's done. Romu restarts by itself.
 5. Click **Close**.
@@ -90,8 +88,7 @@ downloads it on your computer and copies it onto Romu.
    (Step 3).
 2. Open **Tools → Manage packages…**.
 
-   <!-- TODO: replace src with the GitHub asset URL of the Tools menu screenshot -->
-   <img width="302" alt="Thonny's Tools menu with Manage packages… highlighted" src="https://github.com/user-attachments/assets/REPLACE-WITH-TOOLS-MENU-ASSET-ID" />
+   <img width="302" alt="Thonny's Tools menu with Manage packages… highlighted" src="https://github.com/user-attachments/assets/7090d5f4-f6dc-4e19-bbd7-df65feaf5560" />
 
 3. The window title should read **Manage packages for Raspberry Pi Pico @ COMx**,
    which means packages go onto Romu, not your computer. Type
@@ -100,8 +97,7 @@ downloads it on your computer and copies it onto Romu.
 4. Check that the result is **usb-device-keyboard** (license MIT), then click
    **Install** and wait until it finishes.
 
-   <!-- TODO: replace src with the GitHub asset URL of the Manage packages dialog screenshot -->
-   <img width="846" alt="Thonny's Manage packages for Raspberry Pi Pico dialog showing the usb-device-keyboard package, version 0.1.1, with the Install button" src="https://github.com/user-attachments/assets/REPLACE-WITH-MANAGE-PACKAGES-ASSET-ID" />
+   <img width="846" alt="Thonny's Manage packages for Raspberry Pi Pico dialog showing the usb-device-keyboard package, version 0.1.1, with the Install button" src="https://github.com/user-attachments/assets/853082be-d8cc-4ea1-8e6e-b7815735a1f3" />
 
 5. Click **Close**.
 
