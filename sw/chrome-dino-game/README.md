@@ -4,7 +4,7 @@ Play the Google Chrome Dino game with Romu's touch pad. Romu acts as a USB keybo
 while you touch the pad it holds down the **Spacebar**, so the dino jumps, and a
 longer touch gives a higher jump, just like the real key.
 
-The program is [`custom_keystroke.py`](custom_keystroke.py), written in
+The program is [`chrome_dino_game.py`](chrome_dino_game.py), written in
 MicroPython. This guide uses the [Thonny IDE](https://thonny.org/) and assumes
 you're starting with nothing installed.
 
@@ -42,7 +42,8 @@ you're starting with nothing installed.
 Skip this step if Romu already runs MicroPython 1.24 or newer (Step 3 shows the
 version). Do it if Romu runs other firmware, or an older MicroPython.
 
-1. **Put Romu into bootloader mode:** hold the **BOOT** button while you plug
+1. **Put Romu into bootloader mode:** press and hold Romu's **back-right
+   corner**, which presses the BOOT button inside ([see how](../../README.md#bootloader-mode-boot-button)), while you plug
    Romu into a USB port, then release it. A drive named **`RP2350`** appears.
 2. In Thonny, click the interpreter name in the **bottom-right corner** of the
    window and choose **Install MicroPython…**.
@@ -112,7 +113,7 @@ and `keyboard.py`. If `core.py` or `hid.py` is missing, install
 
 1. Make sure the Shell shows the `>>>` prompt (Step 3).
 2. Open the program on your computer: **File → Open… → This computer**, then
-   choose `custom_keystroke.py` from this folder.
+   choose `chrome_dino_game.py` from this folder.
 3. Save it onto Romu as **`main.py`**: **File → Save as… → Raspberry Pi Pico**,
    type the name **`main.py`** and click **OK**. MicroPython runs `main.py`
    automatically every time Romu powers up. If Romu already has a `main.py`
