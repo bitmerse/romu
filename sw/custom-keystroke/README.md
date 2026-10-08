@@ -1,6 +1,6 @@
-# Chrome Dino Jumper for Romu
+# Google Chrome Dino Jumper for Romu
 
-Play the Chrome Dino game with Romu's touch pad. Romu acts as a USB keyboard:
+Play the Google Chrome Dino game with Romu's touch pad. Romu acts as a USB keyboard:
 while you touch the pad it holds down the **Spacebar**, so the dino jumps, and a
 longer touch gives a higher jump, just like the real key.
 
@@ -130,15 +130,14 @@ and `keyboard.py`. If `core.py` or `hid.py` is missing, install
 
 1. **Unplug Romu and plug it back in.** Romu starts the program and the LED turns
    **red**.
-2. In Chrome, open **`chrome://dino`** (type it into the address bar). The game
+2. In Google Chrome, open **`chrome://dino`** (type it into the address bar). The game
    also appears on any page when the computer is offline.
 3. Click once on the game page, so it receives the key presses.
 4. **Touch the touch pad** to start the game, then touch to jump. The LED is
    **blue** while you touch. Touch briefly for a small hop, longer for a high
    jump.
 
-   <!-- TODO: replace src with the GitHub asset URL of the Chrome Dino game screenshot -->
-   <img width="800" alt="The Chrome Dino game running at chrome://dino, with the dinosaur running toward a cactus and the score at the top right" src="https://github.com/user-attachments/assets/REPLACE-WITH-CHROME-DINO-ASSET-ID" />
+   <img width="800" alt="The Google Chrome Dino game running at chrome://dino, with the dinosaur running toward a cactus and the score at the top right" src="https://github.com/user-attachments/assets/b46c2b53-59b5-4f6e-a30d-e67321ea36a1" />
 
 Romu presses the Spacebar in whichever window has focus, so keep the game window
 in front while you play.
