@@ -1,3 +1,4 @@
+<img width="640" height="360" alt="romu-bootloader-mode" src="https://github.com/user-attachments/assets/d60696b2-ee5b-46f0-b4c0-27a652df00b8" />
 # Romu
 Romu is an ultra-compact USB Type-A development board that plugs directly into any USB port. Built around the Raspberry Pi RP2354A, it's small enough to carry on a keychain and ships with MicroPython preloaded, so you can start writing and running code the moment you plug it in.
 
@@ -15,8 +16,7 @@ Thoughtfully designed, Romu offers a range of innovative and practical features:
 ## Bootloader mode (BOOT button)
 Romu's BOOT button sits inside the enclosure. You press it through the enclosure by pressing **one corner of Romu**:
 
-<!-- TODO: replace src with the GitHub asset URL of the BOOT button GIF -->
-<img width="640" alt="Pressing and holding the back-right corner of Romu while plugging it into a laptop's USB port, which presses the BOOT button inside" src="https://github.com/user-attachments/assets/REPLACE-WITH-BOOT-BUTTON-GIF-ASSET-ID" />
+<img width="640" alt="Pressing and holding the back-right corner of Romu while plugging it into a laptop's USB port, which presses the BOOT button inside" src="https://github.com/user-attachments/assets/de5460bc-2990-4a14-8744-179e2460eb03" />
 
 1. Hold Romu with the gold USB contacts facing up and the USB connector pointing away from you.
 2. Press and hold the **back-right corner**: the right-hand corner at the end opposite the USB connector.
