@@ -1,4 +1,3 @@
-<img width="640" height="360" alt="romu-bootloader-mode" src="https://github.com/user-attachments/assets/d60696b2-ee5b-46f0-b4c0-27a652df00b8" />
 # Romu
 Romu is an ultra-compact USB Type-A development board that plugs directly into any USB port. Built around the Raspberry Pi RP2354A, it's small enough to carry on a keychain and ships with MicroPython preloaded, so you can start writing and running code the moment you plug it in.
 
