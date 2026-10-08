@@ -1,0 +1,3 @@
+[submodule "sw/fido2-security-key/RS-Key"]
+	path = sw/fido2-security-key/RS-Key
+	url = https://github.com/bitmerse/RS-Key.git
