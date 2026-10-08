@@ -149,8 +149,9 @@ The result is `firmware.uf2` in the `RS-Key` folder.
 > Loading RS-Key **replaces the MicroPython** that Romu ships with. To go back
 > later, load a MicroPython UF2 for the RP2350 the same way.
 
-1. **Hold the BOOT button** on Romu while you plug it into a USB port, then
-   release it. A drive named **`RP2350`** appears.
+1. **Press and hold Romu's back-right corner**, which presses the BOOT button
+   inside ([see how](../../README.md#bootloader-mode-boot-button)), while you plug Romu into a USB port, then release it. A
+   drive named **`RP2350`** appears.
 2. **Copy `firmware.uf2` onto the `RP2350` drive.** On Windows and macOS, drag and
    drop it. On Linux, copy it to the mounted drive, e.g.
    `cp firmware.uf2 /media/$USER/RP2350/`.
@@ -211,7 +212,7 @@ over to the new firmware **as long as you keep exactly the same `FLASH_SIZE` and
 
 - **Confirm with the BOOT button instead of the touch pad.** Leave
   `PRESENCE_PIN=20 PRESENCE_ACTIVE_HIGH=1` out of the build command in step 2.
-  Then press the BOOT button when the LED is green.
+  Then press Romu's back-right corner (the BOOT button) when the LED is green.
 - **Every other build setting** (USB identity, features and so on) is explained in
   [RS-Key/docs/build.md](RS-Key/docs/build.md).
 
@@ -223,7 +224,7 @@ over to the new firmware **as long as you keep exactly the same `FLASH_SIZE` and
 | `$'\r': command not found`, or other errors mentioning `\r` | The source has Windows line endings. Clone again inside Ubuntu, into `~` (see "Get the source" above). |
 | The `RS-Key` folder is empty | Run `git submodule update --init --recursive` from the `romu` folder. |
 | The LED turns green but touching the pad does nothing | Check you built with `PRESENCE_PIN=20 PRESENCE_ACTIVE_HIGH=1`. A build without them waits for the **BOOT button** instead. |
-| The `RP2350` drive doesn't appear | Hold BOOT *before* plugging in, and keep holding until the drive appears. Try another USB port. |
+| The `RP2350` drive doesn't appear | Press and hold Romu's back-right corner (the BOOT button, [see how](../../README.md#bootloader-mode-boot-button)) *before* plugging in, and keep holding until the drive appears. Try another USB port. |
 | The key forgot its passkeys after an update | The new build used different `FLASH_SIZE` / `KVMAIN` values. Rebuild with the original values straight away, before registering anything new, to give the old credentials the best chance of being found again. |
 
 # :scroll: License

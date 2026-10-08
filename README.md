@@ -12,6 +12,19 @@ Thoughtfully designed, Romu offers a range of innovative and practical features:
 - **Native MicroPython Support:** Preloaded and ready to code in Thonny IDE, with no drivers or external programmer needed.
 - **Full Debug Access via Jig:** The optional Programming & Debugging Jig exposes USB, SWD, and UART through a tool-free, precision pogo-pin fixture.
 
+## Bootloader mode (BOOT button)
+Romu's BOOT button sits inside the enclosure. You press it through the enclosure by pressing **one corner of Romu**:
+
+<!-- TODO: replace src with the GitHub asset URL of the BOOT button GIF -->
+<img width="640" alt="Pressing and holding the back-right corner of Romu while plugging it into a laptop's USB port, which presses the BOOT button inside" src="https://github.com/user-attachments/assets/REPLACE-WITH-BOOT-BUTTON-GIF-ASSET-ID" />
+
+1. Hold Romu with the gold USB contacts facing up and the USB connector pointing away from you.
+2. Press and hold the **back-right corner**: the right-hand corner at the end opposite the USB connector.
+3. Keep holding it while you plug Romu into a USB port.
+4. Release the corner. A drive named **`RP2350`** appears on your computer.
+
+You need bootloader mode to install or update MicroPython, to load other firmware such as the [FIDO2 security key](sw/fido2-security-key), or to recover a Romu that doesn't start normally.
+
 # :file_folder: Repository contents
   - **/docs** - Documentation resources (Licensed under [CC BY-SA 4.0](docs/LICENSE.txt))
   - **/hw** - Board design files (Licensed under [CERN-OHL-P-2.0](hw/LICENSE.txt))

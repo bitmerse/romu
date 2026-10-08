@@ -41,7 +41,8 @@ you're starting with nothing installed.
 Skip this step if Romu already runs MicroPython 1.24 or newer (Step 3 shows the
 version). Do it if Romu runs other firmware, or an older MicroPython.
 
-1. **Put Romu into bootloader mode:** hold the **BOOT** button while you plug
+1. **Put Romu into bootloader mode:** press and hold Romu's **back-right
+   corner**, which presses the BOOT button inside ([see how](../../README.md#bootloader-mode-boot-button)), while you plug
    Romu into a USB port, then release it. A drive named **`RP2350`** appears.
 2. In Thonny, click the interpreter name in the **bottom-right corner** of the
    window and choose **Install MicroPython…**.
