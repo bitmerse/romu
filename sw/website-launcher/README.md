@@ -38,8 +38,11 @@ you're starting with nothing installed.
 
 # :arrows_counterclockwise: Step 2: Install or update MicroPython
 
-Skip this step if Romu already runs MicroPython 1.24 or newer (Step 3 shows the
-version). Do it if Romu runs other firmware, or an older MicroPython.
+Romu ships with MicroPython preinstalled, so you can usually **skip this step**.
+Do it only if you want to update to a newer MicroPython version (this program
+needs **1.24 or newer**; Step 3 shows which version Romu has), if you've loaded
+other firmware such as the [FIDO2 security key](../fido2-security-key), or if
+Romu doesn't start normally.
 
 1. **Put Romu into bootloader mode:** press and hold Romu's **back-right
    corner**, which presses the BOOT button inside ([see how](../../README.md#bootloader-mode-boot-button)), while you plug

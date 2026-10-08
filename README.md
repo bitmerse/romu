@@ -23,7 +23,7 @@ Romu's BOOT button sits inside the enclosure. You press it through the enclosure
 3. Keep holding it while you plug Romu into a USB port.
 4. Release the corner. A drive named **`RP2350`** appears on your computer.
 
-You need bootloader mode to install or update MicroPython, to load other firmware such as the [FIDO2 security key](sw/fido2-security-key), or to recover a Romu that doesn't start normally.
+Romu ships with MicroPython preinstalled, so you don't need bootloader mode to get started. You need it only to update MicroPython to a newer version, to load other firmware such as the [FIDO2 security key](sw/fido2-security-key), or to recover a Romu that doesn't start normally.
 
 # :file_folder: Repository contents
   - **/docs** - Documentation resources (Licensed under [CC BY-SA 4.0](docs/LICENSE.txt))
